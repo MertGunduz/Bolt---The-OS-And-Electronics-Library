@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      list-style: none;
+      text-decoration: none;
+}
+
+/* - WIDELY USED CLASSESS - */
+.main-header {
+      font-size: 2.75rem;
+      color: rgb(255, 205, 0);
+}
+/* - WIDELY USED CLASSESS - */
+
+body {
+      max-width: 1080px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+header {
+      padding: 20px;
+      background-color: rgb(76, 76, 76);
+      border-bottom: 1px solid rgb(90, 90, 90);
+
+}
+
+header a {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+}
+
+header img {
+      margin-right: 30px;
+}
+
+main {
+      padding: 20px;
+      background-color: rgb(76, 76, 76);
+      border-bottom: 1px solid rgb(90, 90, 90);
+}
+
+.subjects-div h1 {
+      color: rgb(255, 205, 0);
+}
+
+.subjects-div a {
+      text-decoration: underline 3px dotted rgb(255, 205, 0) !important;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+}
+
+.subjects-div a img {
+      margin-right: 20px;
+      margin-bottom: 12px;
+}
+
+.subjects-div a h1 {
+      margin-bottom: 12px;
+}
+
+.subject-container-div {
+      margin-bottom: 32px;
+}
+
+.subjects-div h1 {
+      margin-bottom: 12px;      
+}
+
+.subjects-div p {
+      color: rgb(192, 192, 192);
+      margin-bottom: 12px;
+}
+
+footer {
+      padding: 20px;
+      background-color: rgb(76, 76, 76);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
