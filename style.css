@@ -93,7 +93,7 @@ main {
 }
 
 .subjects-div a {
-      text-decoration: underline 3px dotted rgb(255, 205, 0) !important;
+      text-decoration: underline 2px dotted rgb(255, 205, 0) !important;
       display: flex;
       justify-content: flex-start;
       align-items: center;
